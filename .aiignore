@@ -1,5 +1,7 @@
 # Configs
+# .vscode/tasks.json, settings.json, launch.json и mcp.json могут запускать команды — агентам их не читать
 .vscode/
+.vs/
 .idea/
 
 # Ignore keys, tokens, secrets
@@ -18,7 +20,6 @@ out/
 reports/
 coverage/
 
-apps/**/public/
 **/*.glb
 **/*.gltf
 **/*.bin
